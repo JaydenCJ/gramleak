@@ -1,0 +1,19 @@
+# build artifacts
+/gramleak
+/dist/
+
+# generated demo data and indexes
+/demo-data/
+*.glx
+leak-report.json
+
+# test and coverage output
+*.test
+*.out
+coverage.*
+
+# editor noise
+.idea/
+.vscode/
+*.swp
+.DS_Store
